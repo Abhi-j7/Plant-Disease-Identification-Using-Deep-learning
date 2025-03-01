@@ -1,0 +1,38 @@
+Essential Libraries Installation🎍
+
+To ensure the proper functioning of the Plant Disease Identification project, install the following dependencies:
+
+📌 Required Libraries
+
+Run the following commands in your terminal or command prompt:
+
+pip install flask                
+pip install mysql-connector-python==8.0.26   
+pip install tensorflow==1.14.0        
+pip install keras==2.2.4              
+pip install sklearn==0.0              
+pip install h5py==2.10.0              
+pip install pillow                    
+pip install opencv-python==4.4.0.40   
+      
+
+⚙️ Additional Setup
+
+If using virtual environments, activate your environment before installing:
+
+python -m venv env
+source env/bin/activate   # On macOS/Linux
+env\Scripts\activate      # On Windows
+
+Once activated, install the above libraries to avoid conflicts with global dependencies.
+
+🔍 Verifying Installation
+
+Run the following command to check if all required libraries are installed correctly:
+
+pip list
+
+Ensure all libraries are listed with the correct versions.
+
+Now you're all set to run the Plant Disease Identification system! 🚀
+
